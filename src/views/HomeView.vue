@@ -73,8 +73,6 @@
 </template>
 
 <script>
-import ListCharacters from '@/components/ListCharacters.vue';
-import HeroDetail from '@/components/HeroDetails.vue';
 import axios from 'axios';
 import { onMounted, ref } from 'vue';
 import { useQuasar } from 'quasar'
@@ -90,8 +88,6 @@ export default {
   name: 'HomeView',
 
   components: {
-    ListCharacters,
-    HeroDetail
   },
 
   setup () {    
